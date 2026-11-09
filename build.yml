@@ -2,7 +2,7 @@ name: Build deb
 on: [push, workflow_dispatch]
 jobs:
   build:
-    runs-on: macos-15-intel
+    runs-on: macos-26
     steps:
       - uses: actions/checkout@v4
       - name: Install Theos
@@ -16,5 +16,5 @@ jobs:
         run: gmake package FINALPACKAGE=1
       - uses: actions/upload-artifact@v4
         with:
-          name: SixteenPlayer-deb
+          name: LiquidSiri-deb
           path: packages/*.deb
