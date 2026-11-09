@@ -1,0 +1,9 @@
+Package: com.jjlulz.liquidsiri
+Name: LiquidSiri remake [iOS 12]
+Depends: mobilesubstrate, firmware (>= 12.0)
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: A glass lens bubble with a magnifying effect drops in from the top while Siri is open
+Maintainer: jjlulz
+Author: jjlulz
+Section: Tweaks
